@@ -28,6 +28,7 @@ class _HomePageState extends State<HomePage> {
             String batch = data?['Batch'];
             if (student != "" && batch != ""){
               return GestureDetector(
+                // alert dialog to end rental for affair
                 onTap: () {
                   showDialog(
                     context: context,
